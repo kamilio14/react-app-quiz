@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.open-card {
+  background-color: whitesmoke;
+  height: 400px;
+  width: 400px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #003d56;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-1 {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-with-question {
+  display: grid;
+  height: auto;
+  width: 550px;
+  background-color: #01d9f5;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.btns {
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.btns:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.btn-check-answers {
+  padding: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.questions {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}

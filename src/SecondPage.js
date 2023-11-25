@@ -139,11 +139,11 @@ export default function SecondPage(props) {
     setMarkCorrAns((prevState) => !prevState);
   }
 
-  let jebo = elementsBadAnswers.map((item, index) => {
+  let all = elementsBadAnswers.map((item, index) => {
     return item.concat(elementsGoodAnswers[[index]]);
   });
 
-  jebo.map((item) => {
+  all.map((item) => {
     return item.sort(() => Math.random() - 0.5);
   });
 
@@ -154,7 +154,7 @@ export default function SecondPage(props) {
         return (
           <div>
             {elementsQuestion[shuffledArray[index]]}
-            {jebo[shuffledArray[index]]}
+            {all[shuffledArray[index]]}
           </div>
         );
       })}
